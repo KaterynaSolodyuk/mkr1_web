@@ -1,0 +1,111 @@
+a:link {
+    text-decoration: none!important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+[am-Button]{
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid;
+    transition: 0.5s;
+}
+
+[am-Button = "primary"]{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(127, 53, 174);
+    padding: 10px 20px;
+}
+
+[am-Button]:hover{
+    background-color: rgba(128, 53, 174, 0.471);;
+}
+
+
+[am-Logo = "logo"]{
+    position: relative;
+    font-family: "Georgia", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(127, 53, 174);
+}
+
+[am-menu-item] {
+    color: rgb(79, 24, 114);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    line-height: 100px;
+    margin: 50px;  
+}
+
+[am-Logo]:hover{
+    color:  rgb(159, 110, 189);
+    text-shadow: 2px 2px 2px lightgoldenrodyellow;
+   
+}
+
+[am-menu-item]:hover{
+    color: rgb(127, 53, 174);
+    text-shadow: 2px 2px 5px rgb(121, 121, 111);
+}  
+
+[card = "menu"] {
+    width: 18rem;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+[card= "title"]{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: rgb(66, 20, 94);
+    text-align: center;
+    margin: 20px;  
+}
+
+[card= "text"]{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(159, 110, 189);
+    text-align: center;
+    padding: 10px;
+    line-height: 20px;
+}
+
+[card="item"] {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: rgb(66, 20, 94);
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+
+[am-menu="side"]{
+    background-color: rgb(159, 110, 189);
+    min-height: 100vh;
+}
+
+[am-menu="content"]{
+    min-height: 100vh;
+    width: 100%;
+}
+
+[image="width"]{
+    width: 90%;
+    margin-left: 40px;
+}
+
+[footer="inline"]{
+ border-color: rgb(159, 110, 189);
+ border-radius: 10px;
+    border-bottom: 1px solid;
+}
